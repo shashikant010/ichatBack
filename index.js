@@ -1,4 +1,4 @@
-const io = require('socket.io')(8000, {
+const io = require('socket.io')(7000, {
     cors: {
       origin: "*",  // replace with your client's origin
       methods: ["GET", "POST"],

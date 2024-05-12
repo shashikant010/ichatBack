@@ -1,6 +1,6 @@
 const io = require('socket.io')(8000, {
     cors: {
-      origin: "https://shashikant010.github.io",  // replace with your client's origin
+      origin: "*",  // replace with your client's origin
       methods: ["GET", "POST"],
       allowedHeaders: ["my-custom-header"],
       credentials: true
